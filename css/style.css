@@ -1,0 +1,222 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: azure;
+}
+
+.container {
+    width: 100%;
+    height: 50%;
+    margin: 10 auto;
+    background-color: rgb(48, 31, 201);
+}
+
+header {
+    background-image: url(../img/azul.jpeg);;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 130px;
+}
+
+footer {
+    background-color: rgb(12, 1, 117);
+    color: rgb(232, 195, 241);
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav {
+    width: 20%;
+    float: left;
+}
+
+#content {
+    width: 78%;
+    padding: 0 1%;
+    float: right;
+    background-color: rgb(255, 255, 255);
+}
+
+.cb {
+    clear: both;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 16px 0;
+    border: solid 2px rgb(238, 230, 216);
+}
+
+nav ul li:hover {
+    color: grey;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+#home {
+    text-align: center;
+    padding: 90px 0;
+}
+
+.txt-center {
+    text-align: center;
+}
+.txt-center.cabezera {
+    text-align: center;
+    color: antiquewhite;
+    background-size: 100% 100%;
+    
+}
+
+.tag {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 0, 0);
+}
+
+/*--------------------------------------*/
+ul.desordenada li {
+    list-style-type: square;
+}
+
+ul.desordenada li li {
+    list-style-type: circle;
+}
+
+/*--------------------------------------*/
+ol.ordenada li {
+    list-style-type: armenian;
+}
+
+ol.ordenada li li {
+    list-style-type: georgian;
+}
+
+/*--------------------------------------*/
+ol.ordenada2 li {
+    list-style-image: url(../img/heart.png);
+}
+
+ol.ordenada2 li li {
+    list-style-image: none;
+    list-style-type: decimal-leading-zero;
+}
+
+dt.definicion {
+    list-style-type: circle;
+}
+
+/*------------------tablas De Red--------------------*/
+table.theadre {
+    margin: 0 auto;
+}
+
+table.theadre th {
+    margin: 0 auto;
+    background-color: chocolate;
+    color: blueviolet;
+}
+
+table.theadre td {
+    margin: 0 auto;
+    background-color: blueviolet;
+    color: chocolate;
+}
+
+/*table.stiper tr:nth-child(even) {
+    background-color: #eee;
+}
+table.stipertr:nth-child(odd) {
+    background-color: #fadddd;
+}*/
+table.rowAlternate{
+    margin: 0 auto;
+} 
+table.rowAlternate tr:nth-child(odd) {
+    background-color: rgb(2, 19, 255);
+}
+
+table.rowAlternate tr:nth-child(even) {
+    background-color: rgb(2, 225, 255);
+}
+table.horario{
+    background-color: rgb(218, 213, 213);
+    text-align: center;
+    margin: 0 auto;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+.Prog{
+    background-color: rgb(247, 168, 0);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.BDD{
+    background-color: rgb(23, 224, 238);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.SISI{
+    background-color: rgb(3, 94, 3);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.LMSG{
+    background-color: rgb(2, 0, 119);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.FOL{
+    background-color: rgb(145, 0, 125);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.ENDE{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+.ING{
+    background-color: rgb(46, 150, 81);
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+#formhtml5 form{
+    width: 50%;
+    margin: 0 auto; 
+}
+#formhtml5.textRango{
+    margin: auto;
+    text-align: center;
+
+
+}
+
+
